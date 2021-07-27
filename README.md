@@ -1,4 +1,5 @@
 # python-repo-1
-a repo for my py projects
--added a new script and renamed two scripts
 
+## Repo for my py academic projects
+-added a new script and renamed two scripts
+-adding a new 14 python files 
