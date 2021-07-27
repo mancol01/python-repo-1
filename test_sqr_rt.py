@@ -29,16 +29,20 @@ def my_sqrt(a):
 epsilon=0.0000001
 
 #the while expression will iterate through the functions, increamenting 'a' with 1 up to 25
-while a<26:
-    #a result from the function my_sqrt
-    r=my_sqrt(a)
-    #a result from square root from the built square root function 
-    m=math.sqrt(a)
-    #to find the difference between the two function 
-    h= abs(m-r) 
+def test_sqrt():
+    while a<26:
+        #a result from the function my_sqrt
+        r=my_sqrt(a)
+        #a result from square root from the built square root function 
+        m=math.sqrt(a)
+        #to find the difference between the two function 
+        h= abs(m-r)
+        print('a = %d | my_sqrt(a) = %s | math.sqrt(a) = %s | diff = %s' % (a,  r, m, h))
+        a+=1
+        
+        
+        
+test_sqrt():
     
-    print('a = %d | my_sqrt(a) = %s | math.sqrt(a) = %s | diff = %s' % (a,  r, m, h))
-    
-    a+=1
     
     
