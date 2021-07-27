@@ -29,7 +29,7 @@ def my_sqrt(a):
 epsilon=0.0000001
 
 #the while expression will iterate through the functions, increamenting 'a' with 1 up to 25
-def test_sqrt():
+def test_sqrt(a):
     while a<26:
         #a result from the function my_sqrt
         r=my_sqrt(a)
@@ -42,7 +42,7 @@ def test_sqrt():
         
         
         
-test_sqrt():
+test_sqrt(a)
     
     
     
