@@ -58,5 +58,5 @@ else:
         #return an error if the value chosen
         #is neither a or b
         else:
-            print('ERROR - Please choose between A or B:')
+            print('ERROR - Please choose between A or B:\n')
             
