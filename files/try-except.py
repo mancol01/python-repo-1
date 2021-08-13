@@ -10,7 +10,7 @@ fn=open('thinkpython.pdf')
 show=fn.readline()
 print(show) 
 '''
-Output:z
+Output:
 
 termuxblack > python DaU8Cs1001.py
 Traceback (most recent call last):
